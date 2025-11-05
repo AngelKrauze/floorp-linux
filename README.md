@@ -1,18 +1,19 @@
-## 1. About
+## Description
 Floorp Browser installer/updater for x86_64 Linux platforms written in POSIX shell.
 
 <img src="https://raw.githubusercontent.com/Floorp-Projects/.github/main/profile/header.png" width=80% height=80%>
 
-## 2. Requirements
+## Requirements
 - [x] tar
+- [x] xz
 - [x] curl
 
-## 3. Usage
+## Usage
 Single line command:
 
 `curl https://raw.githubusercontent.com/AngelKrauze/floorp-linux/refs/heads/main/updater.sh >> updater.sh && sh updater.sh`
 
-## 4. Uninstall
+## Uninstall
 ```
 rm -r $HOME/.local/share/floorp/
 rm $HOME/.local/bin/floorp
